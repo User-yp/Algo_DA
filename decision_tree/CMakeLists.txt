@@ -1,0 +1,1 @@
+add_executable(decision_tree decision_tree.cpp)
