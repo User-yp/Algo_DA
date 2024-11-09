@@ -15,9 +15,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 include_directories(./include)
 # 包含子项目。
-add_subdirectory (Algo_DA)
 add_subdirectory(array_and_linkedlist)
-add_subdirectory(stack_and_queue)
 add_subdirectory(binary_tree)
 add_subdirectory(sorting)
 add_subdirectory(searching)
@@ -30,3 +28,5 @@ add_subdirectory(decision_tree)
 add_subdirectory(backtracking)
 add_subdirectory(graph)
 add_subdirectory(dynamic_programming)
+
+add_subdirectory(extern_api)
